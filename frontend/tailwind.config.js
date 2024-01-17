@@ -8,6 +8,8 @@ export default {
         bilbo: ["'Bilbo Swash Caps', 'cursive'"],
       },
       colors: {
+        primary: '#352F44',
+        secondary: '#5C5470',
         footer: '#141414',
       },
     },
