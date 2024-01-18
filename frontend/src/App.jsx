@@ -1,4 +1,4 @@
-import Footer from './components/footer/Footer';
+import Footer from './components/Footer';
 import Navbar from "./components/Navbar"
 
 function App() {
