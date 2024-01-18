@@ -1,21 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       fontFamily: {
-        'ubuntu': ["'Ubuntu', 'sans-serif'"],
-        'bilbo': ["'Bilbo Swash Caps', 'cursive'"] 
+        ubuntu: ["'Ubuntu', 'sans-serif'"],
+        bilbo: ["'Bilbo Swash Caps', 'cursive'"],
       },
       colors: {
-        'primary': '#352F44',
-        'secondary': '#5C5470'
-      }
+        primary: '#352F44',
+        secondary: '#5C5470',
+        footer: '#141414',
+      },
     },
   },
   plugins: [],
-}
-
+};
