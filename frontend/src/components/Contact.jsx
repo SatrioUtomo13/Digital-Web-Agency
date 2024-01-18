@@ -3,7 +3,7 @@ import { IoMdMail } from "react-icons/io";
 
 function Contact() {
   return (
-    <div className="relative px-10 md:px-20 lg:px-24 xl:px-36 py-28 font-ubuntu bg-white lg:flex lg:justify-between lg:gap-20 xl:gap-28 z-10">
+    <div className="relative px-10 md:px-20 lg:px-24 xl:px-36 py-10 md:py-16 lg:py-28 font-ubuntu bg-white lg:flex lg:justify-between lg:gap-20 xl:gap-28 z-10">
       <div className="lg:mt-20 lg:w-1/2">
         <h1 className="bg-gradient-to-r from-[#22D6A4] to-[#4284D3] bg-clip-text text-transparent font-bilbo text-[40px]">Get in Touch</h1>
         <p className="font-bold text-[50px] leading-tight">Have any Project Plan in Your Mind ?</p>
@@ -51,8 +51,8 @@ function Contact() {
           <button type="submit" className="p-5 bg-gradient-to-r from-[#22D6A4] to-[#4284D3] rounded-xl text-white text-xl tracking-wide">Submit Now</button>
         </form>
       </div>
-      <img src="/src/assets/contactAssets/contact1.svg" alt="contact-vector1" className="absolute top-52 lg:top-64 left-5 md:left-10 -z-10" />
-      <img src="/src/assets/contactAssets/contact1.svg" alt="contact-vector2" className="absolute bottom-64 lg:top-44 right-5 md:right-10 -z-10" />
+      <img src="/src/assets/contactAssets/contact1.svg" alt="contact-vector1" className="absolute top-36 md:top-40 lg:top-64 left-5 md:left-10 -z-10" />
+      <img src="/src/assets/contactAssets/contact1.svg" alt="contact-vector2" className="absolute bottom-96 md:bottom-64 lg:top-44 right-5 md:right-10 -z-10" />
     </div>
   )
 }
