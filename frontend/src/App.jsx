@@ -1,11 +1,13 @@
-import Footer from './components/footer/Footer';
 import Navbar from "./components/Navbar"
+import Home from "./components/home/Home";
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <>
-      <div className="w-full h-screen bg-black">
+      <div>
         <Navbar/>
+        <Home/>
         <Footer />
       </div>
     </>
