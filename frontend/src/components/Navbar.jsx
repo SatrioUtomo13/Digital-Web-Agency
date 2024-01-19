@@ -25,7 +25,7 @@ function Navbar() {
   });
   return (
     <nav
-      className={`fixed left-0 right-0 top-0 z-10 flex justify-between px-12 py-2 text-2xl text-white transition-all duration-100 md:px-10 md:py-2 lg:py-0 ${scrollPosition > 20 ? "bg-black" : "bg-transparent"}`}
+      className={`fixed left-0 right-0 top-0 z-10 flex justify-between px-5 py-3 text-2xl text-white transition-all duration-100 md:px-10 md:py-2 lg:py-0 ${scrollPosition > 20 ? "bg-black" : "bg-transparent"}`}
     >
       <ScrollLink className="flex items-center font-ubuntu">
         Your Company
