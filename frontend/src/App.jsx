@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="h-screen w-full bg-black">
-        <Navbar />
+        {/* <Navbar /> */}
         <AboutPage />
       </div>
     </>
