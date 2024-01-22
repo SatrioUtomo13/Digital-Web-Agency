@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input-gradient {
+  background: 
+    linear-gradient(white 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to bottom, #22D6A4, #4284D3) border-box;
+  color: #313149;
+  padding: 21px 20px;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.service-button {
+  background: 
+    linear-gradient(white 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to bottom, #22D6A4, #4284D3) border-box;
+  padding: 25px 50px;
+  border: 2px solid transparent;
+  border-radius: 60px;
+  display: inline-block;
+}
