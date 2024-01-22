@@ -10,6 +10,9 @@ export default {
       colors: {
         primary: '#352F44',
         secondary: '#5C5470',
+        gradPrimary: '#5f39ff',
+        gradSecondary: '#20d9a1',
+        text: '#d9d9d9',
         footer: '#141414',
       },
     },

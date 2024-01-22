@@ -25,14 +25,14 @@ function Navbar() {
   });
   return (
     <nav
-      className={`sticky top-0 z-10 flex justify-between px-12 py-8 text-2xl text-white transition-all duration-100 md:px-10 md:py-6 ${scrollPosition > 20 ? "bg-secondary" : "bg-transparent"}`}
+      className={`fixed left-0 right-0 top-0 z-30 flex justify-between px-5 py-3 text-2xl text-white transition-all duration-100 md:px-14 md:py-5 lg:py-3 lg:px-20 ${scrollPosition > 20 ? "bg-black" : "bg-transparent"}`}
     >
       <ScrollLink className="flex items-center font-ubuntu">
         Your Company
       </ScrollLink>
 
       <ul
-        className={`fixed right-14 top-16 flex w-1/2 flex-col space-y-3 bg-primary p-3 font-ubuntu text-base text-gray-200 ${isMenuOpen ? "" : "hidden"} md:static md:flex md:w-2/3 md:flex-row md:items-center md:justify-between md:space-y-0 md:bg-transparent md:pl-0 md:pr-0 md:text-lg `}
+        className={`fixed right-14 top-16 flex w-1/2 flex-col space-y-3 bg-primary p-3 font-ubuntu text-base text-gray-200 ${isMenuOpen ? "" : "hidden"} lg:static lg:flex lg:w-2/3 lg:flex-row lg:items-center lg:justify-between lg:space-y-0 lg:bg-transparent lg:pl-0 lg:pr-0 lg:text-lg `}
       >
         <li className="w-full cursor-pointer pl-2 hover:bg-secondary  hover:text-white md:hover:bg-transparent">
           <ScrollLink>Home</ScrollLink>
@@ -57,14 +57,14 @@ function Navbar() {
         </li>
       </ul>
 
-      <button className="md:hidden" onClick={ToggleMenu}>
+      <button className="lg:hidden" onClick={ToggleMenu}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth="1.5"
           stroke="currentColor"
-          className="h-w-9 w-9"
+          className="h-9 w-9 md:w-12 md:h-12"
         >
           <path
             strokeLinecap="round"
