@@ -7,7 +7,7 @@ import img4 from '../../assets/aboutAssets/img4.png'
 function About() {
   return (
     <>
-      <div className='mt-8 flex flex-col space-y-5 md:px-14 lg:flex-row lg:space-y-0 lg:mt-10'>
+      <div className='mt-8 flex flex-col space-y-5 md:px-14 lg:flex-row lg:space-y-0 lg:mt-10' id='about'>
 
         <div className="max-w-md mx-auto grid grid-cols-3 gap-2 px-5 overflow-x-hidden md:mt-10 md:max-w-2xl lg:max-w-none">
           <div className="w-40 col-span-1 self-start box-border rounded-full p-3 border border-gradSecondary md:w-52">

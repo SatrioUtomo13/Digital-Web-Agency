@@ -23,7 +23,7 @@ const services = [
 
 function Service() {
   return (
-    <div className="relative z-10 w-full bg-white p-10 font-ubuntu md:p-16 lg:py-28">
+    <div className="relative z-10 w-full bg-white p-10 font-ubuntu md:p-16 lg:py-28" id="service">
       <div className="text-center">
         <h1 className="bg-gradient-to-r from-[#22D6A4] to-[#4284D3] bg-clip-text font-bilbo text-4xl text-transparent md:text-[40px]">
           Our Services

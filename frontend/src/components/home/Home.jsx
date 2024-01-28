@@ -8,7 +8,7 @@ import mouse from '../../assets/homeAssets/mouse-scroll.png'
 
 function Home() {
   return (
-    <div className='w-full h-fit px-5 relative flex flex-col pt-40 pb-28 box-border bg-gradient-to-br from-black via-[#111111] to-[#242424] md:px-14 lg:flex-row lg:px-20 lg:pt-52'>
+    <div className='w-full h-fit px-5 relative flex flex-col pt-40 pb-28 box-border bg-gradient-to-br from-black via-[#111111] to-[#242424] md:px-14 lg:flex-row lg:px-20 lg:pt-52' id='home'>
       <div className='text-white mb-20 flex flex-col space-y-4 md:space-y-7'>
         <span className='font-bilbo text-4xl md:tracking-wider'>Creative Thingking</span>
         <h1 className='font-ubuntu text-4xl font-bold leading-10 md:text-5xl lg:text-6xl'>Strategic Thingking, Tengible <span className='bg-clip-text text-transparent bg-gradient-to-r from-gradPrimary to-gradSecondary'>Result for Business!</span></h1>

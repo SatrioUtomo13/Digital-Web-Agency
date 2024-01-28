@@ -3,7 +3,7 @@ import { IoMdMail } from "react-icons/io";
 
 function Contact() {
   return (
-    <div className="relative z-10 bg-white px-10 py-10 font-ubuntu md:px-20 md:py-16 lg:flex lg:justify-between lg:gap-20 lg:px-24 lg:py-28 xl:gap-28 xl:px-36">
+    <div className="relative z-10 bg-white px-10 py-10 font-ubuntu md:px-20 md:py-16 lg:flex lg:justify-between lg:gap-20 lg:px-24 lg:py-28 xl:gap-28 xl:px-36" id="contacts">
       <div className="lg:mt-20 lg:w-1/2">
         <h1 className="bg-gradient-to-r from-[#22D6A4] to-[#4284D3] bg-clip-text font-bilbo text-[40px] text-transparent">
           Get in Touch
